@@ -1,0 +1,162 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+
+.head_link, .head_button {
+
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    padding: 16px 135px 0px;
+    align-content: center;
+    justify-content: space-between;
+}
+.head_nav{
+    padding-left: 55px;
+}
+.meniu {
+    display:none;
+}
+
+.head_link{
+    padding: 0px 30px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #333333;
+}
+.head_logo{
+    font-weight:700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.head_button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #111111;
+    border: 1px solid rgba(17, 17, 17, 0.303074);
+    border-radius: 4px;
+    padding: 15px 30px;
+    
+}
+.head_button:hover{
+
+    background-color: #EB5A43;
+    border: #EB5A43;
+    color:#FFFFFF;
+    transition: 1s;
+
+}
+.main{
+    display: flex;
+    padding: 64px 135px 144px;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+ main h3{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 3px; 
+    color: #EB5A43;
+    padding-top: 55px;
+}
+
+main h1{
+
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+main h2{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    padding-right: 130px;
+    padding-bottom: 45px;
+}
+
+.main_button{
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #EB5A43;
+    border-radius: 4px;
+    padding: 15px 30px;
+    background-color: #EB5A43;
+    text-decoration: none;
+
+
+}
+
+.main_button:hover{
+
+    border: 1px solid rgba(17, 17, 17, 0.303074);
+    border-radius: 4px;
+    color: #111111;
+    background-color: #FFFFFF;
+    transition: 1s;
+
+    
+}
+.footer{
+    margin: 0px 135px;
+    border-top: 2px solid #111111;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer h2, h3{
+    margin: 0px;
+}
+
+
+.footer_item {
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 32px;
+
+
+}
+.footer_text{
+    padding-left: 20px;
+}
+
+.footer_data{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding-top: 10px
+}
+
+.footer_tag{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+}
